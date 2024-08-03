@@ -1,3 +1,4 @@
+task.wait(10)
 repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui") and game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main") and game.Players.LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam")
 
 coroutine.wrap(function()
